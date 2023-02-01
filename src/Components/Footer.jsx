@@ -9,7 +9,9 @@ import {Discord} from "react-bootstrap-icons"
 const Footer = () => {
     return(
         <div className="footer">
+            
            <div className="footer-content">
+            
              <Github
                     size={30}
                     color ="white"
@@ -41,6 +43,7 @@ const Footer = () => {
                     className="icon"
                 />
             </div>
+            
         </div>
     )
 }

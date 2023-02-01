@@ -15,6 +15,7 @@ const Mainpage= () =>{
     return(
         <div className="main--page">
           <Navbar/>
+          
           <Routes>
            <Route path="/" element ={<Profile/>} />
            <Route path="/about" element = {<About/>}/>
@@ -22,7 +23,9 @@ const Mainpage= () =>{
            <Route path ="/project" element ={<Projects/>}/>
            <Route path = "/resume" element ={<Resume/>}/>
            <Route path="*" default element = {<Profile/>} />
-        </Routes>
+           </Routes>
+
+           {/*<Footer/>*/}
         </div>
     )
 }

@@ -62,8 +62,10 @@ const Navbar = () =>{
             
 
             <div className="navbar--profile">
+                <div className="nav-bar">
                     <img src={"/Img/huskie_5.jfif"} alt = {""}/>
                     <h1>Ivan Mwaura</h1>
+                </div>
              </div>
              
         </nav>
