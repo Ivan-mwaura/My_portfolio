@@ -308,8 +308,8 @@ body{
     }
     @include mobile{
         grid-template-columns: repeat(1 ,1fr);
-        margin-right: none;
-        margin-left: 70px;
+
+        margin-left: 50px;
         margin-right: 50px;
     }
   
