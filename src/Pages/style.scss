@@ -17,7 +17,7 @@
 
 .Navbar--container{
     padding: 20px;
-    
+  
 }
 .Navbar{
     display: flex;
@@ -26,7 +26,7 @@
     background-color: #0a192f;
     padding: 30px;
     width: 100%;
-    
+
     @include mobile{
         height: fit-content;
         padding-bottom: 70px;
@@ -415,7 +415,10 @@ body{
 .homepage{
     display: flex;
     height: 100vh;
-    
+    width: 95%;
+    @include mobile{
+        width: 92%;
+    }
     .container{
         display: flex;
         width: 100%;
