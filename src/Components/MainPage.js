@@ -25,7 +25,7 @@ const Mainpage= () =>{
            <Route path="*" default element = {<Profile/>} />
            </Routes>
 
-           {/*<Footer/>*/}
+          {/* <Footer/>*/}
         </div>
     )
 }

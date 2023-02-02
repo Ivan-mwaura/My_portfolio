@@ -20,7 +20,7 @@ const Navbar = () =>{
         
          <div className="collapsible" >
             <div className="header" >
-             <button
+                <button
                 onClick={()=>{
                     if(!isCollapsed){
                         setIscollapsed(true)
@@ -53,13 +53,13 @@ const Navbar = () =>{
               </div>
 
             </div>
-             
-            <button><Link to = "/resume" className="link-button">Resume</Link></button>
-            <button><Link to = "/project" className="link"><span className="number">04. </span>Projects</Link></button>
-            <button><Link to ="/contact" className="link"><span className="number">03. </span>Contact</Link></button>
-            <button><Link to ="/about" className="link"><span className="number">02. </span>About</Link></button>
+        <div className="nav-buttons">
             <button><Link to ="/" className="link"><span className="number">01. </span>Profile</Link></button>
-            
+            <button><Link to ="/about" className="link"><span className="number">02. </span>About</Link></button>
+            <button><Link to ="/contact" className="link"><span className="number">03. </span>Contact</Link></button>
+            <button><Link to = "/project" className="link"><span className="number">04. </span>Projects</Link></button>
+            <button><Link to = "/resume" className="link-button">Resume</Link></button>
+        </div>     
 
             <div className="navbar--profile">
                 <div className="nav-bar">

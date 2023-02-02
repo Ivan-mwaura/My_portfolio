@@ -9,16 +9,16 @@ import {Discord} from "react-bootstrap-icons"
 
 const SidebarProfile= () =>{
     const [hoveredIcon, setHoveredIcon] = useState(null)
-    const [rotate,setRotate] = useState(false)
+    /*const [rotate,setRotate] = useState(false)*/
     return(
         <div className="sideprofile--container">
-            <div className="profile">
+            {/*<div className="profile">
                 <img src ={"/Img/huskie_5.jfif"} className="profile-image" alt = {"missing"}/>
                     <pre 
                     onMouseEnter={() => {setRotate(true)}}
                     onMouseLeave ={() => {setRotate(false)}}
                     className={rotate ? "rotate" : ""}>Ivan Mwaura</pre>
-            </div>
+    </div>*/}
             <div className="icons" >
                 <div
                 onMouseEnter = {()=>{setHoveredIcon("github")}}
