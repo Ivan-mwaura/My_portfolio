@@ -47,6 +47,9 @@
         .nav-bar{
             display: flex;
             gap: 50px;
+            @include mobile{
+                gap: 10px;
+            }
             align-items: center;
            
              img{
@@ -60,6 +63,10 @@
         h1{
             color:white ;
             font-size: 30px;
+            @include mobile{
+                font-size: 24px;
+                letter-spacing: normal;
+            }
             font-weight: 500px;
             letter-spacing: 2px;
 
@@ -183,10 +190,10 @@ body{
 
 .my--profile{
     display: flex;
-    gap: 200px;
+    
     padding-left: 130px;
     @include mobile{
-        padding-left: 40px;
+        padding-left: 15px;
     }
     padding-top: 50px;
     @include tablet{
