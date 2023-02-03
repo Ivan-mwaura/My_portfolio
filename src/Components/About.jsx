@@ -37,7 +37,7 @@ const About= () =>{
                 </div>
 
                 <div className="profile--image">
-                    <img src={"Img/prof.jpg"} className ={"profile--picture"}alt = {""}/>
+                    <img src={"Img/snap.jpeg"} className ={"profile--picture"}alt = {""}/>
                 </div>
             </div>
         </div>
